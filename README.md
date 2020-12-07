@@ -8,6 +8,6 @@ control tasks in Github
 
 :package: new feature;
 :up: update;
-:beatle: fix bug;
+:raised_hands: fix bug;
 :checkered_flag: release;
 
