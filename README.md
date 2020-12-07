@@ -1,2 +1,2 @@
 # Portf-lio
-porfolio in css, js and html, together
+porfolio using css, js and html, together
