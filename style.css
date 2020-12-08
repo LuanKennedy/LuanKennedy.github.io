@@ -60,6 +60,7 @@ html{
 }
 
 .sandwich span{
+    display: flex;
     position:absolute;
     left: 3rem;
     height: 2rem;
@@ -68,9 +69,11 @@ html{
     justify-content: center;
     align-items: center;
     color: #fff;
+    text-transform: capitalize;
     font-family: var(--font-action);
     opacity: 0;
 }
+
 .show-menu .sandwich:hover span{
     opacity: 1;
 }
@@ -176,6 +179,10 @@ header {
     transition: all 1s;
     z-index: 80;
 }
+.sideBar span{
+    text-transform: uppercase;
+
+}
 .show-menu .sideBar{
     right: 0;
 }
@@ -220,5 +227,94 @@ header {
 .social-media i:hover{
     background-color: #a044fa;
 }
+.knowledges {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(6, 6rem);
+    row-gap: 0.5rem;
+  }
+  
+  .knowledge:nth-child(1) {
+    grid-column: 4 / 7;
+    grid-row: 1 / -3;
+  }
+  
+  .knowledge:nth-child(2) {
+    grid-column: 3 / 6;
+    grid-row: 3 / 5;
+  }
+  
+  .knowledge:nth-child(3) {
+    grid-column: 4 / 7;
+    grid-row: 5 / -1;
+  }
+  
+  .knowledge:nth-child(4) {
+    grid-column: 11 / 14;
+    grid-row: 1 / -3;
+  }
+  
+  .knowledge:nth-child(5) {
+    grid-column: 12 / 15;
+    grid-row: 3 / 5;
+  }
+  
+  .knowledge:nth-child(6) {
+    grid-column: 11 / 14;
+    grid-row: 5 / -1;
+  }
 
-
+  .section-knowledges {
+    background-color: #f5f5f5;
+    height: 100%;
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section-header h1 {
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    color: #4b4b4b;
+    border-bottom: solid 3px #6a3093;
+    margin-bottom: 1.5rem;
+  }
+  
+  .knowledges-header {
+    display: flex;
+    align-items: center;
+    color: #4b4b4b;
+  }
+  
+  .knowledges-header i {
+    font-size: 2.5rem;
+  }
+  
+  .knowledges-header h3 {
+    font-family: var(--font-secundary);
+    font-size: 2rem;
+    padding-left: 1rem;
+  }
+  
+  .knowledges-text {
+    font-family: var(--font-secundary);
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .knowledges-img-wrapper{
+      grid-column: 7 / 11;
+      grid-row: 2 / 6;
+      width: 100%;
+  }
+  .knowledges-img-wrapper img{
+      object-fit: cover;
+      position: relative;
+      right: 2px;
+      box-shadow:  inset 0 0 2rem rgb(240, 239, 232), 0 0 2rem rgb(14, 1, 1);
+      width: 100%;
+      grid-row: 2 / 6;  
+    }
