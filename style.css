@@ -422,7 +422,7 @@ header {
     .footer-content{
         width: 60%;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
 
