@@ -240,7 +240,7 @@ header {
     margin-top:5%;
   }
 
-  @media(min-width: 1119px) and (min-height: 800px){
+  @media(min-width: 1025px){
     .knowledges {
         height: 100% !important;
         display: grid !important;
