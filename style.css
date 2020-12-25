@@ -240,7 +240,7 @@ header {
     margin-top:5%;
   }
 
-  @media(min-width: 1025px){
+  @media(min-width: 1119px) and (min-height: 800px){
     .knowledges {
         height: 100% !important;
         display: grid !important;
@@ -258,7 +258,13 @@ header {
         align-items: center !important;
         flex-direction: row !important;
     }
-  }
+    .social-list ul{
+       flex-direction: row !important;
+    }
+}
+
+    
+
   
   .knowledge:nth-child(1) {
     grid-column: 4 / 7;
@@ -473,6 +479,9 @@ header {
 
     .social-list ul{
         display: flex;
+        flex-direction: column;
+        margin-top: -.5rem;
+        justify-content: space-between;
     }
 
     #link-up{
