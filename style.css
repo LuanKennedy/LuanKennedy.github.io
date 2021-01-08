@@ -240,7 +240,11 @@ header {
     margin-top:5%;
   }
 
+<<<<<<< HEAD
   @media(min-width: 1025px) {
+=======
+  @media(min-width: 900px){
+>>>>>>> 6e835f8b23995a175e5b0c2875b47546422cfa0c
     .knowledges {
         height: 100% !important;
         display: grid !important;
