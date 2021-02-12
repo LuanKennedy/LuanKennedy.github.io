@@ -264,9 +264,6 @@ header {
     }
 }
 
-    
-
-  
   .knowledge:nth-child(1) {
     grid-column: 4 / 7;
     grid-row: 1 / -3;
